@@ -1,0 +1,10 @@
+server:
+  port: 10001
+spring:
+  application:
+    name: sentinel
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:7001
+        port: 8719
